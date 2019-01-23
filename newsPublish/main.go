@@ -18,6 +18,7 @@ func ShowPrePage(pageIndex int)int{
 	}
 	return pageIndex - 1
 }
+//随便写的
 
 func ShowNextPage(pageIndex int,pageCount float64)int{
 	if pageIndex >= int(pageCount){
